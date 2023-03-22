@@ -82,16 +82,17 @@ div .box-model{
 
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .personajes-conteiner{
         display: flex;
         gap: 100px;
         flex-flow: column nowrap;
 
     }
+}
 
 
-} */
+
 
 .autor-box{
     display: flex;
