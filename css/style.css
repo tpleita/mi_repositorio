@@ -40,8 +40,9 @@ div .box-model{
     flex-wrap: nowrap;
     justify-content: space-between;
     flex-direction: column;
-}
-
+    color: white;
+    
+}   
 .box-1{
     text-align: center;
     border-radius: 5px;
@@ -70,6 +71,7 @@ div .box-model{
     padding-top: 150px;
     background-clip: content-box;
     position: relative;
+    color: white;
 
 }
 
@@ -89,31 +91,34 @@ div .box-model{
         flex-flow: column nowrap;
 
     }
+
+    .autor-conteiner{
+        flex-direction: column-reverse;
+    }
+
+    
+
+
 }
 
 
 
-
-.autor-box{
+.autor-conteiner{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 200px;
-    padding: 200px;
-    border-radius: 5px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 150px;
+    
 }
 
-.texto{
-    flex: 1px;
-    margin-right: 20px;
-    font-size: 18px;
-    line-height: auto;
+.autor-conteiner .autor-box{
+    flex-basis: 50%;
+    color: white
 }
 
-.imagen{
-    flex: 1;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+.autor-conteiner .imagen-autor{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
