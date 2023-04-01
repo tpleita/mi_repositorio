@@ -10,23 +10,38 @@ body{
     border: 0;
 }
 
+
 .inicio-conteiner{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 150px;
+    gap: 100px;
+    color: antiquewhite;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-div .box-model{
-    text-align: center;
-    box-sizing: border-box;
-    width: 500px;
-    height: 450px;
-    padding: 10px 20px;
-    margin: 100px 117px;
-    border: 1px solid black;
-    background-color: white;
-    overflow: auto;
+.inicio-conteiner h1{
+    font-weight: bold;
+    font-size: xxx-large;
 }
+
+.inicio-conteiner2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    gap: 100px;
+    color: antiquewhite;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 
 .mapa{
     position: relative;
@@ -100,7 +115,6 @@ div .box-model{
 
 
 }
-
 
 
 .autor-conteiner{
