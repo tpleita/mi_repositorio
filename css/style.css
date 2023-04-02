@@ -1,3 +1,5 @@
+/* general */
+
 body{
     background-image: url(https://cosmere.es/wp-content/uploads/2017/10/bg-stars.gif);
     font-family: 'Roboto', sans-serif;
@@ -10,6 +12,7 @@ body{
     border: 0;
 }
 
+/* Inicio */
 
 .inicio-conteiner{
     display: flex;
@@ -42,20 +45,14 @@ body{
     padding-right: 50px;
 }
 
-
-.mapa{
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 */
-}
+/* libros */
 
 .libro-conteiner{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     flex-direction: column;
-    color: white;
+    color: antiquewhite;
     
 }   
 .box-1{
@@ -64,6 +61,15 @@ body{
     padding-top: 250px;
     background-clip: content-box;
     position: relative;
+}
+
+/* Mapa */
+
+.mapa{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 */
 }
 
 .mapa iframe {
@@ -80,24 +86,27 @@ body{
     }
 }
 
-.personajes-conteiner .personaje {
-    text-align: center;
-    border-radius: 5px;
-    padding-top: 150px;
-    background-clip: content-box;
-    position: relative;
-    color: azure;
-
-}
-
+/* Personaje */
 .personajes-conteiner{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 2fr;
     gap: 100px;
     text-align: center;
+    color: antiquewhite;
 
 }
+
+
+.personajes-conteiner .personaje {
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 150px;
+    background-clip: content-box;
+    position: relative;
+
+}
+
 
 @media screen and (max-width: 768px) {
     .personajes-conteiner{
@@ -107,16 +116,9 @@ body{
 
     }
 
-    .autor-conteiner{
-        flex-direction: column-reverse;
-    }
-
-    
-
-
 }
 
-
+/* Autor */
 .autor-conteiner{
     display: flex;
     flex-wrap: nowrap;
@@ -135,4 +137,11 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .autor-conteiner{
+        flex-direction: column-reverse;
+        margin: 50px;
+    }
 }
