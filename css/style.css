@@ -124,12 +124,12 @@ body{
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 150px;
+    color: antiquewhite;
     
 }
 
 .autor-conteiner .autor-box{
     flex-basis: 50%;
-    color: white
 }
 
 .autor-conteiner .imagen-autor{
