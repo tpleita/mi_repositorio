@@ -29,6 +29,11 @@
   padding-right: 50px;
 }
 
+.inicio-conteiner2 a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+
 /* libros */
 .libro-conteiner {
   display: flex;
