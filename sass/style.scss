@@ -1,0 +1,56 @@
+@import "index";
+@import "libros";
+@import "mapa";
+@import "personajes";
+@import "autor";
+
+
+
+/* Variables */
+
+
+$blancoHuevo: #faebd7;
+
+
+
+
+
+
+/* Estilo general */
+
+body{
+    background-image: url(https://cosmere.es/wp-content/uploads/2017/10/bg-stars.gif);
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagen-header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* @media */
+
+@media screen and (max-width: 768px) {
+    .mapa {
+      max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .personajes-conteiner{
+        display: flex;
+        gap: 100px;
+        flex-flow: column nowrap;
+
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .autor-conteiner{
+        flex-direction: column-reverse;
+        margin: 50px;
+    }
+}

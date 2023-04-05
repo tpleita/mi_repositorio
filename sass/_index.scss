@@ -1,0 +1,30 @@
+.inicio-conteiner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 150px;
+    gap: 100px;
+    color: #faebd7;
+    padding-left: 50px;
+    padding-right: 50px;
+    h1{
+        font-weight: bold;
+        font-size: xxx-large;
+    }
+}
+
+
+.inicio-conteiner2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+    gap: 100px;
+    color: antiquewhite;
+    padding-left: 50px;
+    padding-right: 50px;
+}

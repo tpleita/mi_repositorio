@@ -1,0 +1,18 @@
+/* Personaje */
+.personajes-conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 100px;
+    text-align: center;
+    color: antiquewhite;
+    .personaje {
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 150px;
+        background-clip: content-box;
+        position: relative;
+    }
+    
+
+}

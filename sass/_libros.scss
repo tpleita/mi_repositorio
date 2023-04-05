@@ -1,0 +1,17 @@
+/* libros */
+
+.libro-conteiner{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+    color: antiquewhite;
+    .box-1{
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 250px;
+        background-clip: content-box;
+        position: relative;
+    }
+    
+}   
