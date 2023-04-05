@@ -1,22 +1,25 @@
-
-
-
+$estiloAutor: (
+    margen-general: 150px,
+    margen-imagen: 0px,
+    padding-imagen: 0px,
+    border-imagen: 0px,
+);
 
 /* Autor */
 .autor-conteiner{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 150px;
+    margin: map-get($estiloAutor, $margen-general );
     color: antiquewhite;
     .autor-box{
         flex-basis: 50%;
     }
     .imagen-autor{
         display: flex;
-        margin: 0;
-        padding: 0;
-        border: 0;
+        margin: map-get($estiloAutor , $margen-imagen );
+        padding: map-get($estiloAutor , $padding-imagen );
+        border: map-get($estiloAutor , $border-imagen );
     }
     
 }
